@@ -135,7 +135,10 @@ INSERT INTO `users` (`ID`, `FULL_NAME`, `EMAIL`, `USER`, `PASSWORD`, `PROFILE_ID
 	(8, 'edward', 'edward@hot.com', 'edward', '12345678', 1),
 	(9, 'Jose pabon', 'Jose@gmail.com', 'jose.pabon', 'jose', 3),
 	(10, 'dairon rosas', 'dairon@gmail.com', 'dairon.rosas', 'dairon', 2),
-	(11, 'ivan Tapia', 'ivan@hotmail.com', 'ivan1234', '12345678', 1);
+	(11, 'ivan Tapia', 'ivan@hotmail.com', 'ivan1234', '12345678', 1),
+	(12, 'Administrador', 'administrador@hotmail.com', 'admin', 'admin1234', 1),
+	(13, 'Usuario', 'usuario@hotmail.com', 'usuario', 'usuario1234', 2),
+	(14, 'Almacen', 'almacen@hotmail.com', 'almacen', 'almacen1234', 3);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
